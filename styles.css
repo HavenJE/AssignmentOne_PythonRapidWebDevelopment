@@ -1,0 +1,40 @@
+main {
+
+    background-color: rgb(16, 152, 161);
+}
+
+.home-title {
+    color: rgb(230, 230, 36);
+}
+
+.home-paragraph {
+    font-size: x-large;
+    color: antiquewhite;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.nav-link {
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.assessment-img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-section-one {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}

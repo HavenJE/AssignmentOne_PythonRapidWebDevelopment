@@ -1,152 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+    <!-- index.css file -->
+    <link rel="stylesheet" href="styles.css">
+
     <title>Clinic eCommerce Webpage</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Contains header, navigation and banner image -->
-   
+
     <header>
-        <!-- ideally for navigation content -->
+        <!-- navigation content -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container d-flex align-items-center">
+
+                <!-- Webpage name or logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/project logo2.jpg" width="45" height="40" alt="My clinic logo" class="logo">
+                </a>
+                <a class="navbar-brand text-light" href="#">HAVEN Physio Clinic</a>
+
+                <!-- data-target, had to match toggle buttons -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" spellcheck="false" data-ms-editor="true">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+                </div>
+            </div>
+        </nav>
+
+        <!-- Jombotron image section -->
+        <!-- <div class="jumbotron jumbotron-fluid card card-image row justify-content-center"
+            style="background-image: url(img/physio\ clinic.avif);">
+            <div class="row justify-content-center mt-5 pb-">
+
+            </div>
+        </div> -->
 
         <div>
             <div>
-                <a href="" >
+                <a href="">
             </div>
         </div>
 
         <nav>
-          <ul>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">Musculoskeletal Physiotherapy</a>
-            </li>
-            <li>
-                <a href="">Neuro Physiotherapy</a>
-            </li>
-            <li>
-                <a href="">Paediatric Physiotherapy</a>
-            </li>
-            <li>
-                <a href="">Agedcare Physiotherapy</a>
-            </li>
-          </ul>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Musculoskeletal Physiotherapy</a>
+                </li>
+                <li>
+                    <a href="">Neuro Physiotherapy</a>
+                </li>
+                <li>
+                    <a href="">Paediatric Physiotherapy</a>
+                </li>
+                <li>
+                    <a href="">Agedcare Physiotherapy</a>
+                </li>
+            </ul>
         </nav>
-    </a>
+        </a>
 
-</header>
+        <!-- Starting the header -->
+    </header>
 
-<section>
-    <img src="img/banner.avif" alt="You need to be pain-free all the time!">
-</section>
+    <!-- <section>
+        <img src="" alt="You need to be pain-free all the time!">
+    </section> -->
 
     <main>
+        <section class="home-section-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <section class="first-section">
+                            <div>
+                                <h1 class="home-title">Exceptional health for all</h1>
+                            </div>
+            
+                            <article class="home-paragraph">
+            
+                                <p>
+                                    Come in for access to comprehensive care.
+            
+                                </p>
+                                <p>
+                                    Comprehensive healthcare services include full assessment:
+                                    <ul>
+                                        <li>
+                                            Symptoms management
+                                        </li> 
+                                        <li>
+                                            On-site treatment
+                                        </li>
+                                        <li>
+                                            Home-care plan
+                                        </li>
+                                        <li>
+                                            Work cover assessment and plan
+                                        </li>
+                                        <li>
+                                            Patient education and follow-up.
+                                        </li>
+                                    </ul>
+                                </p>
+            
+                            </article>
+                        </section>
+                    </div>
+    
+                    <div class="col-7">
+                        <img src="img/assessment.avif" alt="My physio motto image" class="assessment-img"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
        
 
+        <div class="container">
+            <section class="business-hours">
+                <!-- <h3>Our Business hours: </h3> -->
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Our Business hours:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Monday:
+                            </td>
+                            <td>
+                                07:00 am-6:00 pm
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Tuesday:
+                            </td>
+                            <td>
+                                07:00 am-6:00 pm
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Wednesday:
+                            </td>
+                            <td>
+                                07:00 am-6:00 pm
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Thursday:
+                            </td>
+                            <td>
+                                07:00 am-6:00 pm
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Friday:
+                            </td>
+                            <td>
+                                07:00 am-6:00 pm
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Saturday:
+                            </td>
+                            <td>
+                                09:00 am-2:00 pm
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+        <!-- Contact form -->
+
         <section>
-            <div>
-                <h1>My eCommerce Webpage</h1>
-            </div>
+            <form action="post">
+                <!-- Remember: The id tag (id=" ") of the input should match the for tag (for="") of the label -->
+            </form>
+        </section>
 
-            <article>
 
-                <img
-                src="img/physio motto image.avif"
-                alt="My physio motto image"
-              />
 
-                <h2>Our Physio motto</h2>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a laborum
-                    error at eligendi est sint, voluptas qui aspernatur aperiam commodi porro
-                    repellat id facilis culpa veniam accusantium illum obcaecati.
-                  </p>
-
-                  <!-- Business hours table  -->
-
-                  <section>
-                    <!-- <h3>Our Business hours: </h3> -->
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Our Business hours:</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    Monday: 
-                                </td>
-                                <td>
-                                    07:00 am-6:00 pm 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    Tuesday: 
-                                </td>
-                                <td>
-                                    07:00 am-6:00 pm 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    Wednesday: 
-                                </td>
-                                <td>
-                                    07:00 am-6:00 pm 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    Thursday: 
-                                </td>
-                                <td>
-                                    07:00 am-6:00 pm 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    Friday: 
-                                </td>
-                                <td>
-                                    07:00 am-6:00 pm 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    Saturday: 
-                                </td>
-                                <td>
-                                    09:00 am-2:00 pm 
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                  </section>
-
-                  <!-- Contact form -->
-                  
-                  <section>
-                    <form action="post">
-                        <!-- Remember: The id tag (id=" ") of the input should match the for tag (for="") of the label -->
-                    </form>
-                  </section>
-
-            </article>
-            
         </section>
 
     </main>
@@ -159,6 +247,22 @@
             </p>
         </div>
     </footer>
- 
-  </body>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
