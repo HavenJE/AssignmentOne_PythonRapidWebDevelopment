@@ -42,3 +42,7 @@ To install the Requests package
 
 To install SQL Alchemy - flacks program is compatible with SQL Alchemy v2.5.1 – but not the most updated versions
 pip3 install flask-SQLAlchemy==2.5.1
+
+Styling notes:
+
+- for responsive columns within grid, make sure you use the class="col-lg-(size)" to adjust/make columns stack on top of each other at a large screen.

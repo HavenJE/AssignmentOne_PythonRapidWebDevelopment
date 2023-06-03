@@ -1,15 +1,69 @@
-main {
+/* * {
+      background-image: url(./img/project\ logo.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+    
+} */
 
-    background-color: rgb(16, 152, 161);
+/* main {
+   background-image: url(./img/project\ logo.jpg);
+   image
+} */
+
+header {
+    margin-bottom: 100px;
+}
+
+.home-section-one {
+    background-color:rgb(17, 160, 179);
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    font-size: large;
+}
+
+/* Home page - first-section  */
+.container {
+    max-width: 70%;
+}
+
+.assessment-img {
+    object-position: 50% 50%;
+    width: 100%;
+    height: auto;
+}
+
+.home-section-one {
+    /* background-color: black; */
+    width: 100%;
+    height: auto;
+}
+
+.first-section {
+    margin: 20px 20px 20px;
 }
 
 .home-title {
     color: rgb(230, 230, 36);
+    font-size: 37px;
+
 }
 
 .home-paragraph {
-    font-size: x-large;
+    font-size: 20px;
     color: antiquewhite;
+    margin: 20px 25px 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar  */
+.logo {
+    border-radius: 50%;
 }
 
 .navbar-brand {
@@ -24,17 +78,31 @@ main {
     font-family: 'Rajdhani', sans-serif;
 }
 
-.logo {
-    border-radius: 50%;
+/* Home page - section two - locations & business hours */
+.states-title, .location-title {
+    font-weight:bold;
+     
 }
 
-.assessment-img {
-    width: 100%;
-    height: 100%;
+.location-title {
+    margin-bottom: 25px;
 }
 
-.home-section-one {
-    background-color: black;
-    width: 100%;
-    height: 100%;
+.home-section-two {  
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+
+    width: 90%;
+    height: auto;
+    /* border: solid 5px black; */
+    /* background-color:rgb(17, 160, 179); */
+}
+
+.clinic-address, td, tr {
+    font-size: 23px;
+    
 }
