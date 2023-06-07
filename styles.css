@@ -11,11 +11,12 @@
 } */
 
 header {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 
 .home-section-one {
     background-color:rgb(17, 160, 179);
+    margin-top: 180px;
 }
 
 .nav-link {
@@ -27,18 +28,16 @@ header {
 }
 
 /* Home page - first-section  */
-.container {
-    max-width: 70%;
-}
-
 .assessment-img {
-    object-position: 50% 50%;
-    width: 100%;
-    height: auto;
+    /* object-position: 50% 50%; */
+    width: 70vh;
+    height: 50vh;
 }
 
 .home-section-one {
-    /* background-color: black; */
+    font-size: 25px;
+    color: antiquewhite;
+    margin: 40px 0;
     width: 100%;
     height: auto;
 }
@@ -47,16 +46,16 @@ header {
     margin: 20px 20px 20px;
 }
 
-.home-title {
+.home-title, .page-title {
     color: rgb(230, 230, 36);
     font-size: 37px;
 
 }
 
-.home-paragraph {
-    font-size: 20px;
+.home-paragraph, .page-paragraph {
+    font-size: 25px;
     color: antiquewhite;
-    margin: 20px 25px 20px;
+    /* margin: 40px 20px; */
     width: 100%;
     height: auto;
 }
@@ -84,25 +83,183 @@ header {
      
 }
 
-.location-title {
-    margin-bottom: 25px;
-}
-
 .home-section-two {  
     color: black;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 80px;
+    /* margin-bottom: 80px; */
+
     font-family: 'Orbitron', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Rajdhani', sans-serif;
 
-    width: 90%;
+    width: 100%;
     height: auto;
     /* border: solid 5px black; */
     /* background-color:rgb(17, 160, 179); */
 }
 
-.clinic-address, td, tr {
-    font-size: 23px;
+.clinic-address, td, tr, .clinic-number {
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+    background-color: black;
+    font-size: 18px;
+    color: antiquewhite;
     
+    align-items: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.footer .col-lg-3 {
+   text-align: center;
+   align-items: center;
+}
+
+.footer-logo, .footer-copyright-title {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.footer-item-link, .copyright-links {
+    color: antiquewhite;
+}
+
+.quick-links-title {
+    font-size: 16px;
+}
+
+.github-link, .linkedIn-link, .footer-ul {
+    list-style-type: none;
+}
+
+.github-link, .github-icon {
+    display: inline-block;
+}
+
+.linkedIn-link, .lindkedIn-icon {
+    display: inline-block;
+}
+
+.linkedIn-link {
+    margin-bottom: 40px;
+}
+
+/* common pages styling */
+.page-section-one {
+    background-color:rgb(17, 160, 179);
+    width: 100%;
+    height: auto;
+    margin: 40px 0px;
+    padding: 10px;
+ 
+}
+
+.page-title {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.page-span {
+    color: rgb(230, 230, 36);
+    font-weight: bold;
+}
+
+.page-paragraph {
+    font-size: 20px;
+}
+
+.paragraph-title {
+    margin-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* image slider */
+.carousel{
+    margin-top: 50px;
+    width: 60vh;
+    height: 50vh;
+}
+
+.col-lg-6 {
+    padding: 0px 0px;
+}
+
+/* neuro page styling  */
+/* .page-section-two > .row {
+    position: relative;
+    width: 100vh;
+    height: 50vh;
+    background-image: url(./img/lounge\ stretch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}  */
+
+.middle-list, .third-list {
+    margin-top: 10px;
+}
+
+.neuro-section-two-image {
+    background-size: cover;
+    background-image: url(./img/lounge\ stretch.jpg);
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    border: 5px solid black;
+}
+
+
+/* Musculokeletal */
+
+.page-section-two-image {
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* Contact page */
+.upper-part {
+    margin-top: 50px;
+    background-color:rgb(12, 12, 12);
+    font-size: 25px;
+    color: rgb(255, 253, 253);
+    /* margin: 40px 20px; */
+    width: 100%;
+    height: auto;
+}
+
+.contact-locations-title {
+    margin: 35px 0px;
+}
+
+.contact-clinic-location, .clinic-number {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.col-lg-4 > .clinic-number {
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    margin: 50px 0px;
+}
+
+/* Form section */
+.form-title {
+    margin-bottom: 30px;
 }
