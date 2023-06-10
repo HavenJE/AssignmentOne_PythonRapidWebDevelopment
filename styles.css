@@ -267,3 +267,11 @@ header {
 .form-title {
     margin-bottom: 30px;
 }
+
+/* Book appointment button */
+.btn {
+   margin: 10px;
+   color: rgb(230, 230, 36);
+   font-weight: bold;
+   font-size: 20px;
+}
