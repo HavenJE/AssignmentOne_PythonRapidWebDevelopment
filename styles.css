@@ -1,14 +1,3 @@
-/* * {
-      background-image: url(./img/project\ logo.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-    
-} */
-
-/* main {
-   background-image: url(./img/project\ logo.jpg);
-   image
-} */
 
 header {
     margin-bottom: 180px;
@@ -154,6 +143,7 @@ header {
 
 /* common pages styling */
 .page-section-one {
+    padding-bottom: 40px;
     background-color:rgb(17, 160, 179);
     width: 100%;
     height: auto;
@@ -224,9 +214,9 @@ header {
 
 
 /* Musculokeletal */
-.page-section-one {
+/* .page-section-one {
     padding-bottom: 40px;
-}
+} */
 
 .page-section-two-image {
     margin-top: 5px;
@@ -274,4 +264,49 @@ header {
    color: rgb(230, 230, 36);
    font-weight: bold;
    font-size: 20px;
+}
+
+/* Appointment page */
+.appointment-location-selection {
+    margin: 20px 0px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    align-content: center;
+}
+
+.appointment-paragraph-title {
+    color: rgb(230, 230, 36);
+    margin-top: 25px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    align-content: center;
+}
+
+/* Bootstrap card */
+.appointment-page-section-one {
+    padding-bottom: 40px;
+    background-color:rgb(17, 160, 179);
+    width: 100%;
+    height: auto;
+    margin: 40px 0px;
+    padding: 10px;
+}
+
+.card {
+    margin: 20px 0px;
+    width: 18rem;  
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    border: 3px solid rgb(109, 96, 96);
 }
