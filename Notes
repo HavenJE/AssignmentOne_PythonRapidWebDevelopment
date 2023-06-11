@@ -46,3 +46,11 @@ pip3 install flask-SQLAlchemy==2.5.1
 Styling notes:
 
 - for responsive columns within grid, make sure you use the class="col-lg-(size)" to adjust/make columns stack on top of each other at a large screen.
+- for nice hover effect, use the following setting:
+
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+  border: 3px solid rgb(109, 96, 96);
